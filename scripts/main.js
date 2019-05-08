@@ -19,7 +19,7 @@ let height = canvas.height;
 addToSnake(0, 0);
 addToSnake(10, 0);
 addToSnake(20, 0);
-setInterval(update, 75);
+setInterval(update, 25);
 addFood();
 
 window.addEventListener("keydown", keys);
